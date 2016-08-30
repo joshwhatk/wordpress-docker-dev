@@ -8,14 +8,14 @@ services:
     ports:
       - 8080:80
     volumes:
-      - ./data:/var/www/html
+      - ./public:/var/www/html
     environment:
       WORDPRESS_DB_PASSWORD: password
 
   mysql:
     image: mariadb
     volumes:
-      - "./.data/db:/var/lib/mysql"
+      - "./database/db:/var/lib/mysql"
     restart: always
     ports:
       - 33067:3306
