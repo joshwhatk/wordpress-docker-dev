@@ -1,4 +1,4 @@
-# Quick Docker Github Development
+# Quick Docker Wordpress Development
 
 Simple docker setup to quickly get Wordpressing.
 
