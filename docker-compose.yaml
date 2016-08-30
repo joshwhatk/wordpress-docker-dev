@@ -10,7 +10,7 @@ services:
     volumes:
       - ./data:/var/www/html
     environment:
-      WORDPRESS_DB_PASSWORD: example
+      WORDPRESS_DB_PASSWORD: password
 
   mysql:
     image: mariadb
@@ -20,4 +20,4 @@ services:
     ports:
       - 33067:3306
     environment:
-      MYSQL_ROOT_PASSWORD: example
+      MYSQL_ROOT_PASSWORD: password
