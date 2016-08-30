@@ -21,8 +21,10 @@ Simple docker setup to quickly get Wordpressing.
 
 1. Hit `Ctrl + C` (on Mac) to quit the running docker-compose process.
 2. Run the following commands:
+
     ```
     docker-compose rm wordpress
     docker-compose rm mysql
     ```
+
 3. And `rm -r` the project directory and it's as if it never happened.
