@@ -23,9 +23,9 @@ Simple docker setup to quickly get Wordpressing.
 
 For when you want to test something quickly and pretend like it never happened...
 
-> **Note**: You will need to run `docker-compose stop` instead if you started it with the `-d` flag.
-
 1. Hit `Ctrl + C` (on Mac) to quit the running docker-compose process.
+    > **Note**: You will need to run `docker-compose stop` instead if you started it with the `-d` flag.
+
 2. Run the following commands:
 
     ```
