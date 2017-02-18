@@ -2,6 +2,10 @@
 
 Simple docker setup to quickly get Wordpressing.
 
+* Remove OpCache so files can be edited and viewed quickly.
+* Fix a few MySQL inconsistencies.
+* Save your MySQL data and WordPress files so they can persist across uses.
+
 ---
 
 ## Up and Running
@@ -16,6 +20,8 @@ Simple docker setup to quickly get Wordpressing.
 6. You can also connect to the MySQL database via port `33067`.
 
 ## Down and Forgotten
+
+For when you want to test something quickly and pretend like it never happened...
 
 > **Note**: You will need to run `docker-compose stop` instead if you started it with the `-d` flag.
 
